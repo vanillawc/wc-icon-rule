@@ -1,14 +1,14 @@
 {
-  "name": "@vanillawc/[name]",
+  "name": "@vanillawc/{{name}}",
   "version": "0.0.0",
   "description": "A vanilla web component for social media card metadata",
   "keywords": [
-    [keywords]
+    {{keywords}}
   ],
   "license": "MIT",
-  "author": "[author]",
-  "main": "index.js",
-  "repository": "https://github.com/vanillawc/[name]/",
+  "author": "{{author}}",
+  "main": "src/{{name}}.js",
+  "repository": "https://github.com/vanillawc/{{name}}/",
   "scripts": {
     "start": "npx live-server --open=dev",
     "lint": "semistandard",

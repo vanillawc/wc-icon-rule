@@ -1,5 +1,5 @@
 export default {
-  input: '[src/wc-blink.js]',
+  input: 'src/{{name}}.js',
   output: {
     file: 'index.js',
     format: 'esm'

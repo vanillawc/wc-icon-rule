@@ -1,4 +1,4 @@
 {
-  "name": "@vanillawc/[name]",
+  "name": "@vanillawc/{{name}}",
   "license": "MIT"
 }
