@@ -24,7 +24,7 @@ export class WCIconRule extends HTMLElement {
           position: relative;
           width: 50%;
           border-top-style: var(--hr-style, solid);
-          border-top-width: var(--hr-width: 1px);
+          border-top-width: var(--hr-width, 1px);
           border-color: var(--hr-color, #000);
         }
         :host:before {

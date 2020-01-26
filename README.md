@@ -25,7 +25,7 @@ Custom Styles
 - `--space-around` - space around the icon (default `1em`)
 - `--hr-width` - horizontal rule width (default `1px`)
 - `--hr-style` - horizontal rule style (default `solid`)
-- `--hr-color` - horizontal rule color(default `black`)
+- `--hr-color` - horizontal rule color (default `black`)
 
 ### Basic Usage
 
