@@ -1,17 +1,17 @@
-[![GitHub Releases](https://img.shields.io/github/release/vanillawc/{{name}}.svg)](https://github.com/vanillawc/{{name}}/releases)
-[![NPM Release](https://badgen.net/npm/v/@vanillawc/{{name}})](https://www.npmjs.com/package/@vanillawc/{{name}})
-[![Downloads](https://badgen.net/npm/dt/@vanillawc/{{name}})](https://www.npmjs.com/package/@vanillawc/{{name}})
-[![MIT License](https://badgen.net/github/license/vanillawc/{{name}})](https://raw.githubusercontent.com/vanillawc/{{name}}/master/LICENSE)
-[![Published on WebComponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/vanillawc/{{name}})
-[![Latest Status](https://github.com/vanillawc/{{name}}/workflows/Latest/badge.svg)](https://github.com/vanillawc/{{name}}/actions)
-[![Release Status](https://github.com/vanillawc/{{name}}/workflows/Release/badge.svg)](https://github.com/vanillawc/{{name}}/actions)
+[![GitHub Releases](https://img.shields.io/github/release/vanillawc/wc-icon-rule.svg)](https://github.com/vanillawc/wc-icon-rule/releases)
+[![NPM Release](https://badgen.net/npm/v/@vanillawc/wc-icon-rule)](https://www.npmjs.com/package/@vanillawc/wc-icon-rule)
+[![Downloads](https://badgen.net/npm/dt/@vanillawc/wc-icon-rule)](https://www.npmjs.com/package/@vanillawc/wc-icon-rule)
+[![MIT License](https://badgen.net/github/license/vanillawc/wc-icon-rule)](https://raw.githubusercontent.com/vanillawc/wc-icon-rule/master/LICENSE)
+[![Published on WebComponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/vanillawc/wc-icon-rule)
+[![Latest Status](https://github.com/vanillawc/wc-icon-rule/workflows/Latest/badge.svg)](https://github.com/vanillawc/wc-icon-rule/actions)
+[![Release Status](https://github.com/vanillawc/wc-icon-rule/workflows/Release/badge.svg)](https://github.com/vanillawc/wc-icon-rule/actions)
 
 <!-- brief description -->
 
 ## Installation
 
 ```sh
-npm i @vanillawc/{{name}}
+npm i @vanillawc/wc-icon-rule
 ```
 
 Then import the `index.js` file at the root of the package.
@@ -44,6 +44,6 @@ Properties
 
 -----
 
-## Demo
+<!-- ## Demo
 
-### [WC-{{name}} - WebComponents.dev]({{link}})
+### [WC-wc-icon-rule - WebComponents.dev]({{link}}) -->
