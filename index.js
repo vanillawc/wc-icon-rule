@@ -25,7 +25,7 @@ class WCIconRule extends HTMLElement {
           width: 50%;
           border-top-style: var(--hr-style, solid);
           border-top-width: var(--hr-width: 1px);
-          border-color: #999;
+          border-color: var(--hr-color, #000);
         }
         :host:before {
           right: var(--space-around, 1em);
