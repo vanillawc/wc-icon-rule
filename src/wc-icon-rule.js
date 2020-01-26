@@ -1,6 +1,6 @@
+/* eslint no-undef: 0 */
 export class WCIconRule extends HTMLElement {
-
-  constructor() {
+  constructor () {
     super();
     this.__shadowRoot = this.attachShadow({ mode: 'open' });
     const template = document.createElement('template');
