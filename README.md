@@ -6,8 +6,6 @@
 [![Latest Status](https://github.com/vanillawc/wc-icon-rule/workflows/Latest/badge.svg)](https://github.com/vanillawc/wc-icon-rule/actions)
 [![Release Status](https://github.com/vanillawc/wc-icon-rule/workflows/Release/badge.svg)](https://github.com/vanillawc/wc-icon-rule/actions)
 
-<!-- brief description -->
-
 ## Installation
 
 ```sh
@@ -20,27 +18,25 @@ Then import the `index.js` file at the root of the package.
 
 ## Usage
 
-<!--
-Attributes
+Custom Styles
 
-- title - the title that displays on the card
-- type - the content type ()
--->
-
-<!--
-Properties
-
-- title - the title that displays on the card
-- type - the content type ()
--->
+- `--width` - width of the icon (default `32px`)
+- `--height` - height of the icon (default `32px`)
+- `--space-around` - space around the icon (default `1em`)
+- `--hr-width` - horizontal rule width (default `1px`)
+- `--hr-style` - horizontal rule style (default `solid`)
 
 ### Basic Usage
 
-<!-- description -->
+Add the icon as a child of the element
 
 ```html
-<!-- code sample -->
+  <wc-icon-rule id="test">
+    <img src="twitter.svg" alt="">
+  </wc-icon-rule>  
 ```
+
+*Note: While this is intended for use with icons, the icon can be any element that accepts `display: inline-block`*
 
 -----
 
