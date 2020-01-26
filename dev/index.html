@@ -4,10 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script type="module" src="../src/wc-icon-rule.js"></script>
+  <style>
+    wc-icon-rule {
+      --width: 48px;
+      --height: 48px;
+      --space-around: 100px;
+      --hr-width: 4px;
+      --hr-style: dotted;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- web component examples go here -->
+  <wc-icon-rule id="test">
+    <img src="twitter.svg" alt="">
+    <!-- <img src="http://lorempixel.com/35/70" alt=""> -->
+  </wc-icon-rule>  
 
 </body>
 </html>
