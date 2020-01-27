@@ -41,6 +41,6 @@ Add the icon as a child of the element
 
 -----
 
-<!-- ## Demo
+## Demo
 
-### [WC-wc-icon-rule - WebComponents.dev]({{link}}) -->
+### [WC-Icon-Rule - WebComponents.dev](https://webcomponents.dev/edit/QfTAXd2htTqIEJowWrK6?sv=1&pm=1)
