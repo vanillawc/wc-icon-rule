@@ -9,7 +9,7 @@
   ],
   "license": "MIT",
   "author": "Evan Plaice <evanplaice@gmail.com> (https://evanplaice.com/)",
-  "main": "src/wc-icon-rule.js",
+  "main": "index.js",
   "repository": "https://github.com/vanillawc/wc-icon-rule/",
   "scripts": {
     "start": "npx live-server --no-browser --port=5500 --open=dev",
