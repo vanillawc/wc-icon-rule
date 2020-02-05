@@ -1,6 +1,6 @@
-[![GitHub Releases](https://img.shields.io/github/release/vanillawc/wc-icon-rule.svg)](https://github.com/vanillawc/wc-icon-rule/releases)
+[![GitHub Releases](https://badgen.net/github/tag/vanillawc/wc-icon-rule)](https://github.com/vanillawc/wc-icon-rule/releases)
 [![NPM Release](https://badgen.net/npm/v/@vanillawc/wc-icon-rule)](https://www.npmjs.com/package/@vanillawc/wc-icon-rule)
-[![Downloads](https://badgen.net/npm/dt/@vanillawc/wc-icon-rule)](https://www.npmjs.com/package/@vanillawc/wc-icon-rule)
+[![Bundlephobia](https://badgen.net/bundlephobia/minzip/@vanillawc/wc-icon-rule)](https://bundlephobia.com/result?p=@vanillawc/wc-icon-rule)
 [![MIT License](https://badgen.net/github/license/vanillawc/wc-icon-rule)](https://raw.githubusercontent.com/vanillawc/wc-icon-rule/master/LICENSE)
 [![Published on WebComponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/vanillawc/wc-icon-rule)
 [![Latest Status](https://github.com/vanillawc/wc-icon-rule/workflows/Latest/badge.svg)](https://github.com/vanillawc/wc-icon-rule/actions)
