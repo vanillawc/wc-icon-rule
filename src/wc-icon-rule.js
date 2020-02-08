@@ -10,6 +10,9 @@ export class WCIconRule extends HTMLElement {
 
   connectedCallback () {
     this.setAttribute('role', 'presentation');
+    for (const child of this.children) {
+      child.setAttribute('role', 'none');
+    }
   }
 
   static template () {
