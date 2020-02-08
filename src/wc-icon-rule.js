@@ -8,6 +8,10 @@ export class WCIconRule extends HTMLElement {
     this.__shadowRoot.appendChild(template.content.cloneNode(true));
   }
 
+  connectedCallback () {
+    this.setAttribute('role', 'presentation');
+  }
+
   static template () {
     return `
       <style>
