@@ -1,20 +1,35 @@
-[![GitHub Releases](https://badgen.net/github/tag/vanillawc/wc-icon-rule)](https://github.com/vanillawc/wc-icon-rule/releases)
-[![NPM Release](https://badgen.net/npm/v/@vanillawc/wc-icon-rule)](https://www.npmjs.com/package/@vanillawc/wc-icon-rule)
-[![Bundlephobia](https://badgen.net/bundlephobia/minzip/@vanillawc/wc-icon-rule)](https://bundlephobia.com/result?p=@vanillawc/wc-icon-rule)
-[![MIT License](https://badgen.net/github/license/vanillawc/wc-icon-rule)](https://raw.githubusercontent.com/vanillawc/wc-icon-rule/master/LICENSE)
-[![Published on WebComponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/vanillawc/wc-icon-rule)
-[![Latest Status](https://github.com/vanillawc/wc-icon-rule/workflows/Latest/badge.svg)](https://github.com/vanillawc/wc-icon-rule/actions)
-[![Release Status](https://github.com/vanillawc/wc-icon-rule/workflows/Release/badge.svg)](https://github.com/vanillawc/wc-icon-rule/actions)
+<h1 align="center">&lt;wc-icon-rule&gt;: Horizontal Rule with Visual Appeal</h1>
+
+<div align="center">
+  <a href="https://github.com/vanillawc/wc-icon-rule/releases"><img src="https://badgen.net/github/tag/vanillawc/wc-icon-rule" alt="GitHub Releases"></a>
+  <a href="https://www.npmjs.com/package/@vanillawc/wc-icon-rule"><img src="https://badgen.net/npm/v/@vanillawc/wc-icon-rule" alt="NPM Releases"></a>
+  <a href="https://bundlephobia.com/result?p=@vanillawc/wc-icon-rule"><img src="https://badgen.net/bundlephobia/minzip/@vanillawc/wc-icon-rule" alt="Bundlephobia"></a>
+  <a href="https://raw.githubusercontent.com/vanillawc/wc-icon-rule/master/LICENSE"><img src="https://badgen.net/github/license/vanillawc/wc-icon-rule" alt="MIT License"></a>
+  <a href="https://www.webcomponents.org/element/vanillawc/wc-icon-rule"><img src="https://img.shields.io/badge/webcomponents.org-published-blue.svg" alt="Published on WebComponents.org"></a>
+  <a href="https://github.com/vanillawc/wc-icon-rule/actions"><img src="https://github.com/vanillawc/wc-icon-rule/workflows/Latest/badge.svg" alt="Latest Status"></a>
+  <a href="https://github.com/vanillawc/wc-icon-rule/actions"><img src="https://github.com/vanillawc/wc-icon-rule/workflows/Release/badge.svg" alt="Release Status"></a>
+</div>
 
 ## Installation
 
+*Installation*
 ```sh
 npm i @vanillawc/wc-icon-rule
 ```
 
-Then import the `index.js` file at the root of the package.
+*Import from NPM*
+```html
+<script type="module" src="node_modules/@vanillawc/wc-icon-rule/index.js"></script>
+```
 
------
+*Import from CDN*
+```html
+<script type="module" src="https://cdn.jsdelivr.net/gh/vanillawc/wc-icon-rule/index.js"></script>
+```
+
+## Demo
+
+Try it on [WebComponents.dev](https://webcomponents.dev/edit/QfTAXd2htTqIEJowWrK6?sv=1&pm=1)
 
 ## Usage
 
@@ -32,15 +47,9 @@ Custom Styles
 Add the icon as a child of the element
 
 ```html
-  <wc-icon-rule id="test">
+  <wc-icon-rule>
     <img src="twitter.svg" alt="">
   </wc-icon-rule>  
 ```
 
 *Note: While this is intended for use with icons, the icon can be any element that accepts `display: inline-block`*
-
------
-
-## Demo
-
-### [WC-Icon-Rule - WebComponents.dev](https://webcomponents.dev/edit/QfTAXd2htTqIEJowWrK6?sv=1&pm=1)
