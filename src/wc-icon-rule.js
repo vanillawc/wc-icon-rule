@@ -1,17 +1,17 @@
 /* eslint no-undef: 0 */
 export class WCIconRule extends HTMLElement {
   constructor () {
-    super();
-    this.__shadowRoot = this.attachShadow({ mode: 'open' });
-    const template = document.createElement('template');
-    template.innerHTML = WCIconRule.template();
-    this.__shadowRoot.appendChild(template.content.cloneNode(true));
+    super()
+    this.__shadowRoot = this.attachShadow({ mode: 'open' })
+    const template = document.createElement('template')
+    template.innerHTML = WCIconRule.template()
+    this.__shadowRoot.appendChild(template.content.cloneNode(true))
   }
 
   connectedCallback () {
-    this.setAttribute('role', 'presentation');
+    this.setAttribute('role', 'presentation')
     for (const child of this.children) {
-      child.setAttribute('role', 'none');
+      child.setAttribute('role', 'none')
     }
   }
 
@@ -51,8 +51,8 @@ export class WCIconRule extends HTMLElement {
         }
       </style>
       <slot></slot>
-    `;
+    `
   }
 }
 
-customElements.define('wc-icon-rule', WCIconRule);
+customElements.define('wc-icon-rule', WCIconRule)

@@ -51,7 +51,7 @@ class WCIconRule extends HTMLElement {
         }
       </style>
       <slot></slot>
-    `;
+    `
   }
 }
 
