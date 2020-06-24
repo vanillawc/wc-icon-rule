@@ -1,4 +1,4 @@
-<h1 align="center">&lt;wc-icon-rule&gt;: Horizontal Rule with Visual Appeal</h1>
+<h1 align="center">&lt;wc-icon-rule&gt; Horizontal Rule with Visual Appeal</h1>
 
 <div align="center">
   <a href="https://github.com/vanillawc/wc-icon-rule/releases"><img src="https://badgen.net/github/tag/vanillawc/wc-icon-rule" alt="GitHub Releases"></a>
