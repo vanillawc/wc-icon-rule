@@ -4,10 +4,11 @@
   <a href="https://github.com/vanillawc/wc-icon-rule/releases"><img src="https://badgen.net/github/tag/vanillawc/wc-icon-rule" alt="GitHub Releases"></a>
   <a href="https://www.npmjs.com/package/@vanillawc/wc-icon-rule"><img src="https://badgen.net/npm/v/@vanillawc/wc-icon-rule" alt="NPM Releases"></a>
   <a href="https://bundlephobia.com/result?p=@vanillawc/wc-icon-rule"><img src="https://badgen.net/bundlephobia/minzip/@vanillawc/wc-icon-rule" alt="Bundlephobia"></a>
-  <a href="https://raw.githubusercontent.com/vanillawc/wc-icon-rule/master/LICENSE"><img src="https://badgen.net/github/license/vanillawc/wc-icon-rule" alt="MIT License"></a>
-  <a href="https://www.webcomponents.org/element/vanillawc/wc-icon-rule"><img src="https://img.shields.io/badge/webcomponents.org-published-blue.svg" alt="Published on WebComponents.org"></a>
   <a href="https://github.com/vanillawc/wc-icon-rule/actions"><img src="https://github.com/vanillawc/wc-icon-rule/workflows/Latest/badge.svg" alt="Latest Status"></a>
   <a href="https://github.com/vanillawc/wc-icon-rule/actions"><img src="https://github.com/vanillawc/wc-icon-rule/workflows/Release/badge.svg" alt="Release Status"></a>
+
+  <a href="https://discord.gg/8ur9M5"><img alt="Discord" src="https://img.shields.io/discord/723296249121603604?color=%23738ADB"></a>
+  <a href="https://www.webcomponents.org/element/vanillawc/wc-icon-rule"><img src="https://img.shields.io/badge/webcomponents.org-published-blue.svg" alt="Published on WebComponents.org"></a>
 </div>
 
 ## Installation
@@ -24,7 +25,7 @@ npm i @vanillawc/wc-icon-rule
 
 *Import from CDN*
 ```html
-<script type="module" src="https://cdn.jsdelivr.net/gh/vanillawc/wc-icon-rule/index.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/vanillawc/wc-icon-rule@1/index.js"></script>
 ```
 
 ## Demo
@@ -53,3 +54,7 @@ Add the icon as a child of the element
 ```
 
 *Note: While this is intended for use with icons, the icon can be any element that accepts `display: inline-block`*
+
+## Contributing
+
+See [CONTRIBUTING.md](https://github.com/vanillawc/vanillawc/blob/main/CONTRIBUTING.md)
