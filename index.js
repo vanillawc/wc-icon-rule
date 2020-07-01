@@ -1,21 +1,19 @@
-/* eslint no-undef: 0 */
+// src/wc-icon-rule.js
 class WCIconRule extends HTMLElement {
-  constructor () {
+  constructor() {
     super();
-    this.__shadowRoot = this.attachShadow({ mode: 'open' });
-    const template = document.createElement('template');
+    this.__shadowRoot = this.attachShadow({mode: "open"});
+    const template = document.createElement("template");
     template.innerHTML = WCIconRule.template();
     this.__shadowRoot.appendChild(template.content.cloneNode(true));
   }
-
-  connectedCallback () {
-    this.setAttribute('role', 'presentation');
+  connectedCallback() {
+    this.setAttribute("role", "presentation");
     for (const child of this.children) {
-      child.setAttribute('role', 'none');
+      child.setAttribute("role", "none");
     }
   }
-
-  static template () {
+  static template() {
     return `
       <style>
         :host {
@@ -51,10 +49,10 @@ class WCIconRule extends HTMLElement {
         }
       </style>
       <slot></slot>
-    `
+    `;
   }
 }
-
-customElements.define('wc-icon-rule', WCIconRule);
-
-export { WCIconRule };
+customElements.define("wc-icon-rule", WCIconRule);
+export {
+  WCIconRule
+};
